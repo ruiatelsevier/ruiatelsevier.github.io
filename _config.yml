@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Dr. Rui Fa"
-  avatar           : "profile.png"
+  avatar           : "taiji.jpg"
   bio              : "Principal Research Scientist - Generative AI and Healthcare Intelligence"
   location         : "London"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Rui+Fa"
   googlescholar    : "https://scholar.google.co.uk/citations?user=aFkAYEIAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "rui-fa-2657182a"
   orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-4588-7971"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : ""
+  twitter          :
   vine             :
   weibo            :
   xing             :
