@@ -15,7 +15,7 @@ tags:
 
 这个工作系统，就是 Agent Harness。
 
-![Agent Harness 将模型、上下文、工具、权限、验证与状态管理连接为可执行系统](/data/harness.png)
+![Agent Harness 将模型、上下文、工具、权限、验证与状态管理连接为可执行系统](/images/harness.png)
 
 ## 为什么只谈模型不够
 
