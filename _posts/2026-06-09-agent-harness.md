@@ -7,6 +7,9 @@ tags:
   - agent
   - harness-engineering
   - writing
+translation_url: /posts/2026/06/agent-harness-en/
+translation_label: "Read in English"
+language_label: "语言版本"
 ---
 
 现在谈 AI Agent，很容易把注意力放在模型上。模型越强，Agent 就越强，这个判断有一部分是对的，但不完整。

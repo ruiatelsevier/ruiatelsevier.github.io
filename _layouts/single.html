@@ -27,6 +27,12 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.translation_url %}
+            <nav class="post-language-switch" aria-label="Article language versions">
+              <span>{{ page.language_label | default: "Language" }}</span>
+              <a href="{{ page.translation_url }}">{{ page.translation_label | default: "Read another version" }}</a>
+            </nav>
+          {% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
