@@ -32,6 +32,7 @@
   h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     font-family: $sans-serif-narrow;
+    font-weight: 600;
   }
 
   h3, h4 {
@@ -88,7 +89,8 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      border: 1px solid #e8e6dc;
+      background: #faf9f5;
     }
   }
 }
@@ -167,9 +169,9 @@
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: #fff;
+  background: #faf9f5;
   z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  box-shadow: 0 4px 24px rgba(#000, 0.05);
   cursor: default;
 
   @include breakpoint($large) {
@@ -208,7 +210,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: #fff transparent;
+    border-color: #faf9f5 transparent;
     z-index: 1;
 
     @include breakpoint($large) {

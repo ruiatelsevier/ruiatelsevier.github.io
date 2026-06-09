@@ -15,6 +15,7 @@
   }
 
   a {
+    color: #c96442;
     text-decoration: underline;
 
     &:hover {
@@ -30,9 +31,11 @@
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
+  font-family: Georgia, serif;
   font-size: $type-size-5;
-  color: mix(#fff, $gray, 25%);
-  border-bottom: 1px solid $border-color;
+  font-weight: 500;
+  color: #87867f;
+  border-bottom: 1px solid #e8e6dc;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -41,7 +44,17 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  color: #141413;
+  font-family: Georgia, serif;
+  font-weight: 500;
+  line-height: 1.2;
+
+  a {
+    color: #141413;
+    text-decoration-color: #c96442;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
 
   a + a {
     opacity: 0.5;
@@ -59,7 +72,9 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  color: #5e5d59;
+  font-size: $type-size-5;
+  line-height: 1.6;
 
   & + p {
     text-indent: 0;
@@ -82,6 +97,15 @@
   .archive__item-title {
     text-decoration: underline;
   }
+}
+
+.archive__item {
+  margin: 1rem 0 1.5rem;
+  padding: 1.5rem;
+  background: #faf9f5;
+  border: 1px solid #e8e6dc;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.05);
 }
 
 
