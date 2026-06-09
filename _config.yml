@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rui@Elsevier"
+title                    : "Dr. Rui Fa"
 title_separator          : "-"
 name                     : &name "Rui Fa"
-description              : &description "Senior Research Scientist in Precision Medicine"
+description              : &description "Principal Research Scientist - Generative AI and Healthcare Intelligence"
 url                      : https://ruiatelsevier.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ruiatelsevier/ruiatelsevier.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rui"
+  name             : "Dr. Rui Fa"
   avatar           : "profile.png"
-  bio              : "Senior Research Scientist in Precision Medicine at Elsevier"
+  bio              : "Principal Research Scientist - Generative AI and Healthcare Intelligence"
   location         : "London"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

@@ -220,6 +220,204 @@
   text-transform: uppercase;
 }
 
+/* ==========================================================================
+   RESEARCH HOMEPAGE AND CV
+   ========================================================================== */
+
+.research-home,
+.cv-page {
+  margin: 0 auto;
+  max-width: 980px;
+  color: #141413;
+  font-family: $sans-serif;
+
+  h1,
+  h2,
+  h3 {
+    color: #141413;
+    font-family: Georgia, serif;
+    font-weight: 500;
+    letter-spacing: 0;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 1.12;
+
+    @include breakpoint($medium) {
+      font-size: 4rem;
+    }
+  }
+
+  h2 {
+    margin: 0 0 1rem;
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
+
+  p,
+  li {
+    color: #5e5d59;
+    font-size: 1rem;
+    line-height: 1.62;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.8rem;
+    color: #c96442;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+  }
+}
+
+.research-hero,
+.cv-hero,
+.research-section,
+.cv-section {
+  margin-bottom: 2rem;
+  border: 1px solid #e8e6dc;
+  border-radius: 16px;
+  background: #faf9f5;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 4px 24px;
+}
+
+.research-hero,
+.cv-hero {
+  padding: 2rem;
+  background: #f5f4ed;
+
+  @include breakpoint($medium) {
+    padding: 3rem;
+  }
+}
+
+.research-role,
+.cv-role {
+  margin: 0.8rem 0 1.2rem;
+  color: #4d4c48;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.research-lead,
+.cv-summary {
+  max-width: 760px;
+  margin-bottom: 0;
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+}
+
+.research-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.research-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 0.55rem 1rem;
+  border-radius: 10px;
+  background: #e8e6dc;
+  color: #4d4c48;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: #d1cfc5 0 0 0 1px;
+
+  &:hover {
+    color: #141413;
+    text-decoration: none;
+    box-shadow: #c2c0b6 0 0 0 1px;
+  }
+}
+
+.research-button--primary {
+  background: #c96442;
+  color: #faf9f5;
+  box-shadow: #c96442 0 0 0 1px;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.research-section,
+.cv-section {
+  padding: 1.5rem;
+
+  @include breakpoint($medium) {
+    padding: 2rem;
+  }
+}
+
+.research-section--intro p,
+.research-section--dark p {
+  max-width: 760px;
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+}
+
+.research-section--dark {
+  border-color: #30302e;
+  background: #141413;
+
+  h2 {
+    color: #faf9f5;
+  }
+
+  p {
+    color: #b0aea5;
+  }
+}
+
+.research-card-grid,
+.cv-skill-grid {
+  display: grid;
+  gap: 1rem;
+
+  @include breakpoint($medium) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.research-card-grid article,
+.cv-skill-grid article,
+.cv-timeline article,
+.cv-education article {
+  border-top: 1px solid #e8e6dc;
+  padding-top: 1rem;
+}
+
+.research-card-grid article,
+.cv-skill-grid article {
+  min-width: 0;
+}
+
+.cv-timeline article,
+.cv-education article {
+  margin-top: 1.25rem;
+}
+
+.cv-date {
+  margin: 0 0 0.25rem;
+  color: #c96442;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
 
 /*
    Page meta
