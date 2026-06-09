@@ -1,0 +1,898 @@
+---
+- key: fa2025prediction
+  type: article
+  type_label: Journal article
+  title: 'Prediction of prolonged length of stay from first 2 days of hospitalization data: a SHAP value-based variable selection method for a simplified model'
+  authors: Fa, Rui and Stoessel, Daniel and Artemova, Svetlana and von Schenck, Ursula and Nowparast Rostami, Hadiseh and Madiot, Pierre-Ephrem and Landelle, Caroline and Bosson, Jean-Luc
+  venue: International Journal For Quality In Health Care
+  year: 2025
+  volume: '37'
+  number: '4'
+  pages: mzaf116
+  publisher: Oxford University Press
+  citation: 'Fa, Rui and Stoessel, Daniel and Artemova, Svetlana and von Schenck, Ursula and Nowparast Rostami, Hadiseh and Madiot, Pierre-Ephrem and Landelle, Caroline and Bosson, Jean-Luc (2025). Prediction of prolonged length of stay from first 2 days of hospitalization data: a SHAP value-based variable selection method for a simplified model International Journal For Quality In Health Care 37(4) pp. mzaf116'
+- key: bosson2024machine
+  type: article
+  type_label: Journal article
+  title: Machine learning pour identifier les patients à risque de maladie thromboembolique veineuse lors d’une hospitalisation
+  authors: Bosson, Jean-Luc and Artemova, Svetlana and Januel, Jean-Michel and Rostami, Hadiseh Nowparast and Stoessel, Daniel and Fa, Rui and Schenck, Ursula
+  venue: JMV-Journal de Médecine Vasculaire
+  year: 2024
+  volume: '49'
+  number: '1'
+  pages: '35'
+  publisher: Elsevier Masson
+  citation: Bosson, Jean-Luc and Artemova, Svetlana and Januel, Jean-Michel and Rostami, Hadiseh Nowparast and Stoessel, Daniel and Fa, Rui and Schenck, Ursula (2024). Machine learning pour identifier les patients à risque de maladie thromboembolique veineuse lors d’une hospitalisation JMV-Journal de Médecine Vasculaire 49(1) pp. 35
+- key: artemova2023cohort
+  type: article
+  type_label: Journal article
+  title: 'Cohort profile for development of machine learning models to predict healthcare-related adverse events (Demeter): clinical objectives, data requirements for modelling and overview of data set for 2016-2018'
+  authors: Artemova, Svetlana and von Schenck, Ursula and Fa, Rui and Stoessel, Daniel and Nowparast Rostami, Hadiseh and Madiot, Pierre-Ephrem and Januel, Jean-Marie and Pagonis, Daniel and Landelle, Caroline and Gallouche, Meghann and others
+  venue: BMJ open
+  year: 2023
+  volume: '13'
+  number: '8'
+  pages: e070929
+  publisher: British Medical Journal Publishing Group
+  citation: 'Artemova, Svetlana and von Schenck, Ursula and Fa, Rui and Stoessel, Daniel and Nowparast Rostami, Hadiseh and Madiot, Pierre-Ephrem and Januel, Jean-Marie and Pagonis, Daniel and Landelle, Caroline and Gallouche, Meghann and others (2023). Cohort profile for development of machine learning models to predict healthcare-related adverse events (Demeter): clinical objectives, data requirements for modelling and overview of data set for 2016-2018 BMJ open 13(8) pp. e070929'
+- key: stoessel2023early
+  type: article
+  type_label: Journal article
+  title: Early prediction of in-hospital mortality utilizing multivariate predictive modelling of electronic medical records and socio-determinants of health of the first day of hospitalization
+  authors: Stoessel, Daniel and Fa, Rui and Artemova, Svetlana and von Schenck, Ursula and Nowparast Rostami, Hadiseh and Madiot, Pierre-Ephrem and Landelle, Caroline and Olive, Fréderic and Foote, Alison and Moreau-Gaudry, Alexandre and others
+  venue: BMC Medical Informatics and Decision Making
+  year: 2023
+  volume: '23'
+  number: '1'
+  pages: '259'
+  publisher: Springer
+  citation: Stoessel, Daniel and Fa, Rui and Artemova, Svetlana and von Schenck, Ursula and Nowparast Rostami, Hadiseh and Madiot, Pierre-Ephrem and Landelle, Caroline and Olive, Fréderic and Foote, Alison and Moreau-Gaudry, Alexandre and others (2023). Early prediction of in-hospital mortality utilizing multivariate predictive modelling of electronic medical records and socio-determinants of health of the first day of hospitalization BMC Medical Informatics and Decision Making 23(1) pp. 259
+- key: deus2019evidence
+  type: article
+  type_label: Journal article
+  title: Evidence-based content drives the future of Precision Medicine
+  authors: Deus, Helena F. and Scranton, Katie and Fa, Rui and Maclean, Finlay and Pijnenburg, Thom and Wilson, Jabe and Samarasinghe, Mevan
+  venue: Journal of Precision Medicine
+  year: 2019
+  volume: '12'
+  number: X
+  pages: X
+  publisher: X
+  citation: Deus, Helena F. and Scranton, Katie and Fa, Rui and Maclean, Finlay and Pijnenburg, Thom and Wilson, Jabe and Samarasinghe, Mevan (2019). Evidence-based content drives the future of Precision Medicine Journal of Precision Medicine 12(X) pp. X
+- key: zhou2019moesm2
+  type: article
+  type_label: Journal article
+  title: MOESM2 of The CAFA challenge reports improved protein function prediction and new functional annotations for hundreds of genes through experimental screens
+  authors: Zhou, Naihui and Jiang, Yuxiang and Bergquist, Timothy and Lee, Alexandra and Kacsoh, Balint and Crocker, Alex and Lewis, Kimberley and Georghiou, George and Nguyen, Huy and Hamid, Md Nafiz and others
+  venue: "(No Title)"
+  year: 2019
+  publisher: figshare
+  citation: Zhou, Naihui and Jiang, Yuxiang and Bergquist, Timothy and Lee, Alexandra and Kacsoh, Balint and Crocker, Alex and Lewis, Kimberley and Georghiou, George and Nguyen, Huy and Hamid, Md Nafiz and others (2019). MOESM2 of The CAFA challenge reports improved protein function prediction and new functional annotations for hundreds of genes through experimental screens (No Title)
+- key: zhou2019cafa
+  type: article
+  type_label: Journal article
+  title: The CAFA challenge reports improved protein function prediction and new functional annotations for hundreds of genes through experimental screens
+  authors: Zhou, Naihui and Jiang, Yuxiang and Bergquist, Timothy R and Lee, Alexandra J and Kacsoh, Balint Z and Crocker, Alex W and Lewis, Kimberley A and Georghiou, George and Nguyen, Huy N and Hamid, Md Nafiz and others
+  venue: Genome biology
+  year: 2019
+  volume: '20'
+  number: '1'
+  pages: '244'
+  publisher: BioMed Central London
+  citation: Zhou, Naihui and Jiang, Yuxiang and Bergquist, Timothy R and Lee, Alexandra J and Kacsoh, Balint Z and Crocker, Alex W and Lewis, Kimberley A and Georghiou, George and Nguyen, Huy N and Hamid, Md Nafiz and others (2019). The CAFA challenge reports improved protein function prediction and new functional annotations for hundreds of genes through experimental screens Genome biology 20(1) pp. 244
+- key: wan2019using
+  type: article
+  type_label: Journal article
+  title: Using deep maxout neural networks to improve the accuracy of function prediction from protein interaction networks
+  authors: Wan, Cen and Cozzetto, Domenico and Fa, Rui and Jones, David T
+  venue: PloS one
+  year: 2019
+  volume: '14'
+  number: '7'
+  pages: e0209958
+  publisher: Public Library of Science San Francisco, CA USA
+  citation: Wan, Cen and Cozzetto, Domenico and Fa, Rui and Jones, David T (2019). Using deep maxout neural networks to improve the accuracy of function prediction from protein interaction networks PloS one 14(7) pp. e0209958
+- key: fa2018predicting
+  type: article
+  type_label: Journal article
+  title: Predicting human protein function with multi-task deep neural networks
+  authors: Fa, Rui and Cozzetto, Domenico and Wan, Cen and Jones, David T
+  venue: PloS one
+  year: 2018
+  volume: '13'
+  number: '6'
+  pages: e0198216
+  publisher: Public Library of Science San Francisco, CA USA
+  citation: Fa, Rui and Cozzetto, Domenico and Wan, Cen and Jones, David T (2018). Predicting human protein function with multi-task deep neural networks PloS one 13(6) pp. e0198216
+- key: merryweather2016distinct
+  type: article
+  type_label: Journal article
+  title: Distinct gene expression program dynamics during erythropoiesis from human induced pluripotent stem cells compared with adult and cord blood progenitors
+  authors: Merryweather-Clarke, Alison T and Tipping, Alex J and Lamikanra, Abigail A and Fa, Rui and Abu-Jamous, Basel and Tsang, Hoi Pat and Carpenter, Lee and Robson, Kathryn JH and Nandi, Asoke K and Roberts, David J
+  venue: BMC genomics
+  year: 2016
+  volume: '17'
+  number: '1'
+  pages: '817'
+  publisher: BioMed Central London
+  citation: Merryweather-Clarke, Alison T and Tipping, Alex J and Lamikanra, Abigail A and Fa, Rui and Abu-Jamous, Basel and Tsang, Hoi Pat and Carpenter, Lee and Robson, Kathryn JH and Nandi, Asoke K and Roberts, David J (2016). Distinct gene expression program dynamics during erythropoiesis from human induced pluripotent stem cells compared with adult and cord blood progenitors BMC genomics 17(1) pp. 817
+- key: yang2016knowledge
+  type: article
+  type_label: Journal article
+  title: Knowledge-aided STAP with sparse-recovery by exploiting spatio-temporal sparsity
+  authors: Yang, Zhaocheng and Li, Xiang and Wang, Hongqiang and Fa, Rui
+  venue: IET Signal Processing
+  year: 2016
+  volume: '10'
+  number: '2'
+  pages: 150-161
+  publisher: The Institution of Engineering and Technology
+  citation: Yang, Zhaocheng and Li, Xiang and Wang, Hongqiang and Fa, Rui (2016). Knowledge-aided STAP with sparse-recovery by exploiting spatio-temporal sparsity IET Signal Processing 10(2) pp. 150-161
+- key: liu2016network
+  type: inproceedings
+  type_label: Conference paper
+  title: Network community degree based fast community detection algorithm for fMRI data
+  authors: Liu, Chao and Fa, Rui and Li, Maozhen and Nandi, Asoke
+  venue: 2016 12th International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery (ICNC-FSKD)
+  year: 2016
+  pages: 1739-1743
+  publisher: IEEE
+  citation: Liu, Chao and Fa, Rui and Li, Maozhen and Nandi, Asoke (2016). Network community degree based fast community detection algorithm for fMRI data 2016 12th International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery (ICNC-FSKD) pp. 1739-1743
+- key: abu2015application
+  type: article
+  type_label: Journal article
+  title: Application of the Bi-CoPaM method to five Escherichia coli datasets generated under various biological conditions
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: Journal of Signal Processing Systems
+  year: 2015
+  volume: '79'
+  number: '2'
+  pages: 159-166
+  publisher: Springer US Boston
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2015). Application of the Bi-CoPaM method to five Escherichia coli datasets generated under various biological conditions Journal of Signal Processing Systems 79(2) pp. 159-166
+- key: fa2015coce
+  type: inproceedings
+  type_label: Conference paper
+  title: 'CoCE-SMART: Consensus clustering based on enhanced splitting-merging awareness tactics'
+  authors: Fa, Rui and Abu-Jamous, Basel and Roberts, David J and Nandi, Asoke K
+  venue: 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  year: 2015
+  pages: 2011-2015
+  publisher: IEEE
+  citation: 'Fa, Rui and Abu-Jamous, Basel and Roberts, David J and Nandi, Asoke K (2015). CoCE-SMART: Consensus clustering based on enhanced splitting-merging awareness tactics 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) pp. 2011-2015'
+- key: yang2015direct
+  type: article
+  type_label: Journal article
+  title: Direct Data Domain Sparsity-Based STAP Utilizing Subaperture Smoothing Techniques
+  authors: Yang, Zhaocheng and Fa, Rui and Qin, Yuliang and Li, Xiang and Wang, Hongqiang
+  venue: International Journal of Antennas and Propagation
+  year: 2015
+  volume: '2015'
+  number: '1'
+  pages: '171808'
+  publisher: Hindawi Publishing Corporation
+  citation: Yang, Zhaocheng and Fa, Rui and Qin, Yuliang and Li, Xiang and Wang, Hongqiang (2015). Direct Data Domain Sparsity-Based STAP Utilizing Subaperture Smoothing Techniques International Journal of Antennas and Propagation 2015(1) pp. 171808
+- key: abu2015fuzzy
+  type: article
+  type_label: Journal article
+  title: Fuzzy Clustering
+  authors: Abu-Jamous, Basel and Fa, R and Nandi, AK
+  venue: Integrative Cluster Analysis in Bioinformatics
+  year: 2015
+  citation: Abu-Jamous, Basel and Fa, R and Nandi, AK (2015). Fuzzy Clustering Integrative Cluster Analysis in Bioinformatics
+- key: abu2015integrative
+  type: article
+  type_label: Journal article
+  title: Integrative cluster analysis in bioinformatics
+  authors: Abu-Jamous, Basel and Fa, Rui and Nandi, Asoke K
+  venue: John Wiley \& Sons
+  year: 2015
+  publisher: John Wiley \& Sons
+  citation: Abu-Jamous, Basel and Fa, Rui and Nandi, Asoke K (2015). Integrative cluster analysis in bioinformatics John Wiley \& Sons
+- key: liu2015scalable
+  type: inproceedings
+  type_label: Conference paper
+  title: Scalable clustering based on enhanced-SMART for large-scale FMRI datasets
+  authors: Liu, Chao and Fa, Rui and Abu-Jamous, Basel and Brattico, Elvira and Nandi, Asoke
+  venue: 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  year: 2015
+  pages: 962-966
+  publisher: IEEE
+  citation: Liu, Chao and Fa, Rui and Abu-Jamous, Basel and Brattico, Elvira and Nandi, Asoke (2015). Scalable clustering based on enhanced-SMART for large-scale FMRI datasets 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) pp. 962-966
+- key: abu2015uncles
+  type: article
+  type_label: Journal article
+  title: 'UNCLES: method for the identification of genes differentially consistently co-expressed in a specific subset of datasets'
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: BMC bioinformatics
+  year: 2015
+  volume: '16'
+  number: '1'
+  pages: '184'
+  publisher: BioMed Central London
+  citation: 'Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2015). UNCLES: method for the identification of genes differentially consistently co-expressed in a specific subset of datasets BMC bioinformatics 16(1) pp. 184'
+- key: abu2014bi
+  type: inproceedings
+  type_label: Conference paper
+  title: Bi-CoPaM ensemble clustering application to five Escherichia coli bacterial datasets
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: 2014 22nd European Signal Processing Conference (EUSIPCO)
+  year: 2014
+  pages: 2485-2489
+  publisher: IEEE
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2014). Bi-CoPaM ensemble clustering application to five Escherichia coli bacterial datasets 2014 22nd European Signal Processing Conference (EUSIPCO) pp. 2485-2489
+- key: abu2014comprehensive
+  type: article
+  type_label: Journal article
+  title: Comprehensive analysis of forty yeast microarray datasets reveals a novel subset of genes (APha-RiB) consistently negatively associated with ribosome biogenesis
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: BMC bioinformatics
+  year: 2014
+  volume: '15'
+  number: '1'
+  pages: '322'
+  publisher: BioMed Central London
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2014). Comprehensive analysis of forty yeast microarray datasets reveals a novel subset of genes (APha-RiB) consistently negatively associated with ribosome biogenesis BMC bioinformatics 15(1) pp. 322
+- key: de2014dual
+  type: inproceedings
+  type_label: Conference paper
+  title: Dual-layer network representation exploiting information characterization
+  authors: De Bernardinis, Virginia and Fa, Rui and Carli, Marco and Nandi, Asoke K
+  venue: 2014 22nd European Signal Processing Conference (EUSIPCO)
+  year: 2014
+  pages: 381-385
+  publisher: IEEE
+  citation: De Bernardinis, Virginia and Fa, Rui and Carli, Marco and Nandi, Asoke K (2014). Dual-layer network representation exploiting information characterization 2014 22nd European Signal Processing Conference (EUSIPCO) pp. 381-385
+- key: abu2014mn
+  type: inproceedings
+  type_label: Conference paper
+  title: MN scatter plots technique for evaluating varying-size clusters and setting the parameters of Bi-CoPaM and Uncles methods
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  year: 2014
+  pages: 6726-6730
+  publisher: IEEE
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2014). MN scatter plots technique for evaluating varying-size clusters and setting the parameters of Bi-CoPaM and Uncles methods 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) pp. 6726-6730
+- key: fa2014noise
+  type: article
+  type_label: Journal article
+  title: Noise Resistant Generalized Parametric Validity Index of Clustering for Gene Expression Data
+  authors: Fa, R and Nandi, A
+  venue: Computational Biology and Bioinformatics, IEEE/ACM Transactions on
+  year: 2014
+  pages: 1-1
+  publisher: IEEE
+  citation: Fa, R and Nandi, A (2014). Noise Resistant Generalized Parametric Validity Index of Clustering for Gene Expression Data Computational Biology and Bioinformatics, IEEE/ACM Transactions on pp. 1-1
+- key: fa2014smart
+  type: article
+  type_label: Journal article
+  title: 'SMART: unique splitting-while-merging framework for gene clustering'
+  authors: Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: Plos one
+  year: 2014
+  volume: '9'
+  number: '4'
+  pages: e94141
+  publisher: Public Library of Science San Francisco, USA
+  citation: 'Fa, Rui and Roberts, David J and Nandi, Asoke K (2014). SMART: unique splitting-while-merging framework for gene clustering Plos one 9(4) pp. e94141'
+- key: fa2014splitting
+  type: inproceedings
+  type_label: Conference paper
+  title: Splitting-while-merging framework for clustering high-dimension data with component-wise expectation conditional maximisation
+  authors: Fa, Rui and Abu-Jamous, Basel and Roberts, David J and Nandi, Asoke K
+  venue: 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+  year: 2014
+  pages: 2932-2936
+  publisher: IEEE
+  citation: Fa, Rui and Abu-Jamous, Basel and Roberts, David J and Nandi, Asoke K (2014). Splitting-while-merging framework for clustering high-dimension data with component-wise expectation conditional maximisation 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) pp. 2932-2936
+- key: fa2013enhanced
+  type: inproceedings
+  type_label: Conference paper
+  title: An enhanced splitting-while-merging algorithm with finite mixture models
+  authors: Fa, Rui and Nandi, Asoke K
+  venue: 2013 IEEE International Conference on Acoustics, Speech and Signal Processing
+  year: 2013
+  pages: 3332-3336
+  publisher: IEEE
+  citation: Fa, Rui and Nandi, Asoke K (2013). An enhanced splitting-while-merging algorithm with finite mixture models 2013 IEEE International Conference on Acoustics, Speech and Signal Processing pp. 3332-3336
+- key: fa2013enhanced
+  type: inproceedings
+  type_label: Conference paper
+  title: Enhanced SMART framework for gene clustering using successive processing
+  authors: Fa, Rui and Abu-Jamous, Basel and Roberts, David J and Nandi, Asoke K
+  venue: 2013 IEEE International Workshop on Machine Learning for Signal Processing (MLSP)
+  year: 2013
+  pages: 1-6
+  publisher: IEEE
+  citation: Fa, Rui and Abu-Jamous, Basel and Roberts, David J and Nandi, Asoke K (2013). Enhanced SMART framework for gene clustering using successive processing 2013 IEEE International Workshop on Machine Learning for Signal Processing (MLSP) pp. 1-6
+- key: fa2013generalised
+  type: article
+  type_label: Journal article
+  title: Generalised grouped minimum mean-squared error-based multi-stage interference cancellation scheme for orthogonal frequency division multiple access uplink systems with carrier frequency offsets
+  authors: Fa, Rui and Zhang, Li
+  venue: IET Communications
+  year: 2013
+  volume: '7'
+  number: '7'
+  pages: 685-695
+  publisher: The Institution of Engineering and Technology
+  citation: Fa, Rui and Zhang, Li (2013). Generalised grouped minimum mean-squared error-based multi-stage interference cancellation scheme for orthogonal frequency division multiple access uplink systems with carrier frequency offsets IET Communications 7(7) pp. 685-695
+- key: fa2013generalized
+  type: article
+  type_label: Journal article
+  title: Generalized grouped mmse based multi-stage interference cancellation scheme for ofdma uplink systems with cfos
+  authors: Fa, R and Zhang, L
+  venue: press, IET communications
+  year: 2013
+  citation: Fa, R and Zhang, L (2013). Generalized grouped mmse based multi-stage interference cancellation scheme for ofdma uplink systems with cfos press, IET communications
+- key: abu2013hybrid
+  type: inproceedings
+  type_label: Conference paper
+  title: Hybrid binarisation technique for the Bi-CoPaM method
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: 2013 Constantinides International Workshop on Signal Processing (CIWSP 2013)
+  year: 2013
+  pages: 6-1
+  publisher: IET Stevenage UK
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2013). Hybrid binarisation technique for the Bi-CoPaM method 2013 Constantinides International Workshop on Signal Processing (CIWSP 2013) pp. 6-1
+- key: abu2013identification
+  type: inproceedings
+  type_label: Conference paper
+  title: Identification of genes consistently co-expressed in multiple microarray datasets by a genome-wide Bi-CoPaM approach
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: 2013 IEEE International Conference on Acoustics, Speech and Signal Processing
+  year: 2013
+  pages: 1172-1176
+  publisher: IEEE
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2013). Identification of genes consistently co-expressed in multiple microarray datasets by a genome-wide Bi-CoPaM approach 2013 IEEE International Conference on Acoustics, Speech and Signal Processing pp. 1172-1176
+- key: cong2013linking
+  type: article
+  type_label: Journal article
+  title: Linking brain responses to naturalistic music through analysis of ongoing EEG and stimulus features
+  authors: Cong, Fengyu and Alluri, Vinoo and Nandi, Asoke K and Toiviainen, Petri and Fa, Rui and Abu-Jamous, Basel and Gong, Liyun and Craenen, Bart GW and Poikonen, Hanna and Huotilainen, Minna and others
+  venue: IEEE Transactions on Multimedia
+  year: 2013
+  volume: '15'
+  number: '5'
+  pages: 1060-1069
+  publisher: IEEE
+  citation: Cong, Fengyu and Alluri, Vinoo and Nandi, Asoke K and Toiviainen, Petri and Fa, Rui and Abu-Jamous, Basel and Gong, Liyun and Craenen, Bart GW and Poikonen, Hanna and Huotilainen, Minna and others (2013). Linking brain responses to naturalistic music through analysis of ongoing EEG and stimulus features IEEE Transactions on Multimedia 15(5) pp. 1060-1069
+- key: fa2013low
+  type: article
+  type_label: Journal article
+  title: Low-Rank STAP Algorithm for Airborne Radar Based on Basis-Function Approximation
+  authors: Fa, Rui and de Lamare, Rodrigo C
+  venue: arXiv preprint arXiv:1303.5121
+  year: 2013
+  citation: Fa, Rui and de Lamare, Rodrigo C (2013). Low-Rank STAP Algorithm for Airborne Radar Based on Basis-Function Approximation arXiv preprint arXiv:1303.5121
+- key: abu2013method
+  type: inproceedings
+  type_label: Conference paper
+  title: Method for the identification of the subsets of genes specifically consistently co-expressed in a set of datasets
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: 2013 IEEE International Workshop on Machine Learning for Signal Processing (MLSP)
+  year: 2013
+  pages: 1-6
+  publisher: IEEE
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2013). Method for the identification of the subsets of genes specifically consistently co-expressed in a set of datasets 2013 IEEE International Workshop on Machine Learning for Signal Processing (MLSP) pp. 1-6
+- key: fa2013object
+  type: inproceedings
+  type_label: Conference paper
+  title: Object based validation algorithm and its application to consensus clustering
+  authors: Fa, Rui and Abu-Jamous, Basel and Nandi, Asoke K
+  venue: 21st European Signal Processing Conference (EUSIPCO 2013)
+  year: 2013
+  pages: 1-5
+  publisher: IEEE
+  citation: Fa, Rui and Abu-Jamous, Basel and Nandi, Asoke K (2013). Object based validation algorithm and its application to consensus clustering 21st European Signal Processing Conference (EUSIPCO 2013) pp. 1-5
+- key: abu2013paradigm
+  type: article
+  type_label: Journal article
+  title: Paradigm of Tunable Clustering Using Binarization of Consensus Partition Matrices (Bi-CoPaM) for
+  authors: Abu-Jamous, B and Fa, R and Roberts, DJ and Nandi, AK
+  year: 2013
+  citation: Abu-Jamous, B and Fa, R and Roberts, DJ and Nandi, AK (2013). Paradigm of Tunable Clustering Using Binarization of Consensus Partition Matrices (Bi-CoPaM) for
+- key: abu2013paradigm
+  type: article
+  type_label: Journal article
+  title: Paradigm of tunable clustering using binarization of consensus partition matrices (Bi-CoPaM) for gene discovery
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: PLoS One
+  year: 2013
+  volume: '8'
+  number: '2'
+  pages: e56432
+  publisher: Public Library of Science
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2013). Paradigm of tunable clustering using binarization of consensus partition matrices (Bi-CoPaM) for gene discovery PLoS One 8(2) pp. e56432
+- key: abu2013yeast
+  type: article
+  type_label: Journal article
+  title: Yeast gene CMR1/YDL156W is consistently co-expressed with genes participating in DNA-metabolic processes in a variety of stringent clustering experiments
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: Journal of the Royal Society Interface
+  year: 2013
+  volume: '10'
+  number: '81'
+  publisher: The Royal Society
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2013). Yeast gene CMR1/YDL156W is consistently co-expressed with genes participating in DNA-metabolic processes in a variety of stringent clustering experiments Journal of the Royal Society Interface 10(81)
+- key: abu2012binarization
+  type: inproceedings
+  type_label: Conference paper
+  title: Binarization of consensus partition matrix for ensemble clustering
+  authors: Abu-Jamous, Basel and Fa, Rui and Nandi, Asoke K and Roberts, David J
+  venue: 2012 Proceedings of the 20th European Signal Processing Conference (EUSIPCO)
+  year: 2012
+  pages: 2193-2197
+  publisher: IEEE
+  citation: Abu-Jamous, Basel and Fa, Rui and Nandi, Asoke K and Roberts, David J (2012). Binarization of consensus partition matrix for ensemble clustering 2012 Proceedings of the 20th European Signal Processing Conference (EUSIPCO) pp. 2193-2197
+- key: fa2012blind
+  type: inproceedings
+  type_label: Conference paper
+  title: Blind carrier frequency offset tracking based on multiuser interference cancellation in OFDMA uplink systems
+  authors: Fa, Rui and Zhang, Li and Ramirez-Gutierrez, Raymundo
+  venue: European Wireless 2012; 18th European Wireless Conference 2012
+  year: 2012
+  pages: 1-5
+  publisher: VDE
+  citation: Fa, Rui and Zhang, Li and Ramirez-Gutierrez, Raymundo (2012). Blind carrier frequency offset tracking based on multiuser interference cancellation in OFDMA uplink systems European Wireless 2012; 18th European Wireless Conference 2012 pp. 1-5
+- key: fa2012clustering
+  type: inproceedings
+  type_label: Conference paper
+  title: 'Clustering analysis for gene expression data: A methodological review'
+  authors: Fa, Rui and Nandi, Asoke K and Gong, Li-Yun
+  venue: 2012 5th International Symposium on Communications, Control and Signal Processing
+  year: 2012
+  pages: 1-6
+  publisher: IEEE
+  citation: 'Fa, Rui and Nandi, Asoke K and Gong, Li-Yun (2012). Clustering analysis for gene expression data: A methodological review 2012 5th International Symposium on Communications, Control and Signal Processing pp. 1-6'
+- key: abu2012comprehensive
+  type: inproceedings
+  type_label: Conference paper
+  title: Comprehensive analysis of multiple microarray datasets by binarization of consensus partition matrix
+  authors: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K
+  venue: 2012 IEEE International Workshop on Machine Learning for Signal Processing
+  year: 2012
+  pages: 1-6
+  publisher: IEEE
+  citation: Abu-Jamous, Basel and Fa, Rui and Roberts, David J and Nandi, Asoke K (2012). Comprehensive analysis of multiple microarray datasets by binarization of consensus partition matrix 2012 IEEE International Workshop on Machine Learning for Signal Processing pp. 1-6
+- key: fa2012development
+  type: inproceedings
+  type_label: Conference paper
+  title: DEVELOPMENT AND EVALUATION OF KERNEL-BASED CLUSTERING VALIDITY INDICES
+  authors: Fa, Rui and Nandi, Asoke K and Abu-Jamous, Basel
+  venue: EUSIPCO 2012
+  year: 2012
+  citation: Fa, Rui and Nandi, Asoke K and Abu-Jamous, Basel (2012). DEVELOPMENT AND EVALUATION OF KERNEL-BASED CLUSTERING VALIDITY INDICES EUSIPCO 2012
+- key: fa2012kernel
+  type: inproceedings
+  type_label: Conference paper
+  title: Kernel-based parametric validity index for assessing clusters from microarray gene expression data
+  authors: Fa, Rui and Nandi, Asoke K
+  venue: 2012 IEEE International Workshop on Machine Learning for Signal Processing
+  year: 2012
+  pages: 1-6
+  publisher: IEEE
+  citation: Fa, Rui and Nandi, Asoke K (2012). Kernel-based parametric validity index for assessing clusters from microarray gene expression data 2012 IEEE International Workshop on Machine Learning for Signal Processing pp. 1-6
+- key: fa2012smart
+  type: inproceedings
+  type_label: Conference paper
+  title: 'Smart: Novel self splitting-merging clustering algorithm'
+  authors: Fa, Rui and Nandi, Asoke K
+  venue: 2012 Proceedings of the 20th European Signal Processing Conference (EUSIPCO)
+  year: 2012
+  pages: 2198-2202
+  publisher: IEEE
+  citation: 'Fa, Rui and Nandi, Asoke K (2012). Smart: Novel self splitting-merging clustering algorithm 2012 Proceedings of the 20th European Signal Processing Conference (EUSIPCO) pp. 2198-2202'
+- key: fa2011low
+  type: inproceedings
+  type_label: Conference paper
+  title: A low-complexity grouped MMSE interference cancellation scheme for OFDMA uplink systems with carrier frequency offsets
+  authors: Fa, Rui and Zhang, Li and Ramirez, Raymundo
+  venue: Wireless Communications and Networking Conference (WCNC), 2011 IEEE
+  year: 2011
+  pages: 1602-1606
+  publisher: IEEE
+  citation: Fa, Rui and Zhang, Li and Ramirez, Raymundo (2011). A low-complexity grouped MMSE interference cancellation scheme for OFDMA uplink systems with carrier frequency offsets Wireless Communications and Networking Conference (WCNC), 2011 IEEE pp. 1602-1606
+- key: fa2011comparisons
+  type: inproceedings
+  type_label: Conference paper
+  title: Comparisons of validation criteria for clustering algorithms in microarray gene expression data analysis
+  authors: Fa, Rui and Nandi, Asoke K
+  venue: The Second Int. Workshop on Genomic Sig. Proc.(GSP2011)
+  year: 2011
+  citation: Fa, Rui and Nandi, Asoke K (2011). Comparisons of validation criteria for clustering algorithms in microarray gene expression data analysis The Second Int. Workshop on Genomic Sig. Proc.(GSP2011)
+- key: gutierrez2011generalized
+  type: inproceedings
+  type_label: Conference paper
+  title: Generalized phase spatial shift keying modulation for MIMO channels
+  authors: Gutierrez, Raymundo Ramirez and Zhang, Li and Elmirghani, Jaafar and Fa, Rui
+  venue: 2011 IEEE 73rd Vehicular Technology Conference (VTC Spring)
+  year: 2011
+  pages: 1-5
+  publisher: IEEE
+  citation: Gutierrez, Raymundo Ramirez and Zhang, Li and Elmirghani, Jaafar and Fa, Rui (2011). Generalized phase spatial shift keying modulation for MIMO channels 2011 IEEE 73rd Vehicular Technology Conference (VTC Spring) pp. 1-5
+- key: li2011iterative
+  type: inproceedings
+  type_label: Conference paper
+  title: Iterative successive interference cancellation based on multiple feedback for multiuser MIMO systems
+  authors: Li, Peng and de Lamare, Rodrigo C and Fa, Rui
+  venue: 17th European Wireless 2011-Sustainable Wireless Technologies
+  year: 2011
+  pages: 1-6
+  publisher: VDE
+  citation: Li, Peng and de Lamare, Rodrigo C and Fa, Rui (2011). Iterative successive interference cancellation based on multiple feedback for multiuser MIMO systems 17th European Wireless 2011-Sustainable Wireless Technologies pp. 1-6
+- key: fa2011multi
+  type: article
+  type_label: Journal article
+  title: 'Multi-branch successive interference cancellation for MIMO spatial multiplexing systems: Design, analysis and adaptive implementation'
+  authors: Fa, R and de Lamare, RC
+  venue: Communications, IET
+  year: 2011
+  volume: '5'
+  number: '4'
+  pages: 484-494
+  publisher: IET
+  citation: 'Fa, R and de Lamare, RC (2011). Multi-branch successive interference cancellation for MIMO spatial multiplexing systems: Design, analysis and adaptive implementation Communications, IET 5(4) pp. 484-494'
+- key: li2011multi
+  type: inproceedings
+  type_label: Conference paper
+  title: Multi-feedback successive interference cancellation with multi-branch processing for MIMO systems
+  authors: Li, Peng and de Lamare, Rodrigo C and Fa, Rui
+  venue: 2011 IEEE 73rd Vehicular Technology Conference (VTC Spring)
+  year: 2011
+  pages: 1-5
+  publisher: IEEE
+  citation: Li, Peng and de Lamare, Rodrigo C and Fa, Rui (2011). Multi-feedback successive interference cancellation with multi-branch processing for MIMO systems 2011 IEEE 73rd Vehicular Technology Conference (VTC Spring) pp. 1-5
+- key: li2011multiple
+  type: article
+  type_label: Journal article
+  title: Multiple feedback successive interference cancellation detection for multiuser MIMO systems
+  authors: Li, Peng and De Lamare, Rodrigo C and Fa, Rui
+  venue: IEEE Transactions on Wireless Communications
+  year: 2011
+  volume: '10'
+  number: '8'
+  pages: 2434-2439
+  publisher: IEEE
+  citation: Li, Peng and De Lamare, Rodrigo C and Fa, Rui (2011). Multiple feedback successive interference cancellation detection for multiuser MIMO systems IEEE Transactions on Wireless Communications 10(8) pp. 2434-2439
+- key: li2011multiple
+  type: inproceedings
+  type_label: Conference paper
+  title: Multiple feedback successive interference cancellation with iterative decoding for point-to-point MIMO systems
+  authors: Li, Peng and de Lamare, Rodrigo C and Fa, Rui
+  venue: 2011 International ITG Workshop on Smart Antennas
+  year: 2011
+  pages: 1-5
+  publisher: IEEE
+  citation: Li, Peng and de Lamare, Rodrigo C and Fa, Rui (2011). Multiple feedback successive interference cancellation with iterative decoding for point-to-point MIMO systems 2011 International ITG Workshop on Smart Antennas pp. 1-5
+- key: fa2011parametric
+  type: inproceedings
+  type_label: Conference paper
+  title: Parametric validity index of clustering for microarray gene expression data
+  authors: Fa, Rui and Nandi, Asoke K
+  venue: 2011 IEEE International Workshop on Machine Learning for Signal Processing
+  year: 2011
+  pages: 1-6
+  publisher: IEEE
+  citation: Fa, Rui and Nandi, Asoke K (2011). Parametric validity index of clustering for microarray gene expression data 2011 IEEE International Workshop on Machine Learning for Signal Processing pp. 1-6
+- key: fa2011reduced
+  type: article
+  type_label: Journal article
+  title: Reduced-rank STAP algorithms using joint iterative optimization of filters
+  authors: Fa, Rui and De Lamare, Rodrigo C
+  venue: IEEE Transactions on Aerospace and Electronic Systems
+  year: 2011
+  volume: '47'
+  number: '3'
+  pages: 1668-1684
+  publisher: IEEE
+  citation: Fa, Rui and De Lamare, Rodrigo C (2011). Reduced-rank STAP algorithms using joint iterative optimization of filters IEEE Transactions on Aerospace and Electronic Systems 47(3) pp. 1668-1684
+- key: cai2011switched
+  type: article
+  type_label: Journal article
+  title: Switched interleaving techniques with limited feedback for interference mitigation in DS-CDMA systems
+  authors: Cai, Yunlong and De Lamare, Rodrigo C and Fa, Rui
+  venue: IEEE Transactions on Communications
+  year: 2011
+  volume: '59'
+  number: '7'
+  pages: 1946-1956
+  publisher: IEEE
+  citation: Cai, Yunlong and De Lamare, Rodrigo C and Fa, Rui (2011). Switched interleaving techniques with limited feedback for interference mitigation in DS-CDMA systems IEEE Transactions on Communications 59(7) pp. 1946-1956
+- key: fa2010generalized
+  type: inproceedings
+  type_label: Conference paper
+  title: A generalized subcarrier-grouped MMSE based multi-stage interference cancellation scheme for OFDMA uplink systems with CFOs
+  authors: Fa, Rui and Zhang, Li
+  venue: Wireless Communication Systems (ISWCS), 2010 7th International Symposium on
+  year: 2010
+  pages: 912-916
+  publisher: IEEE
+  citation: Fa, Rui and Zhang, Li (2010). A generalized subcarrier-grouped MMSE based multi-stage interference cancellation scheme for OFDMA uplink systems with CFOs Wireless Communication Systems (ISWCS), 2010 7th International Symposium on pp. 912-916
+- key: de2010adaptive
+  type: article
+  type_label: Journal article
+  title: 'Adaptive reduced-rank LCMV beamforming algorithms based on joint iterative optimization of filters: Design and analysis'
+  authors: De Lamare, RC and Wang, L and Fa, R
+  venue: Signal processing
+  year: 2010
+  volume: '90'
+  number: '2'
+  pages: 640-652
+  publisher: Elsevier
+  citation: 'De Lamare, RC and Wang, L and Fa, R (2010). Adaptive reduced-rank LCMV beamforming algorithms based on joint iterative optimization of filters: Design and analysis Signal processing 90(2) pp. 640-652'
+- key: fa2010adaptive
+  type: inproceedings
+  type_label: Conference paper
+  title: An adaptive LCMV beamforming algorithm based on dynamic selection of constraints
+  authors: Fa, Rui and de Lamare, Rodrigo C
+  venue: 2010 7th International Symposium on Wireless Communication Systems
+  year: 2010
+  pages: 404-407
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C (2010). An adaptive LCMV beamforming algorithm based on dynamic selection of constraints 2010 7th International Symposium on Wireless Communication Systems pp. 404-407
+- key: fa2010knowledge
+  type: incollection
+  type_label: Book chapter
+  title: Knowledge-aided STAP algorithm using affine combination of inverse covariance matrices for heterogenous clutter
+  authors: Fa, Rui and de Lamare, Rodrigo C and Nascimento, Vitor H
+  venue: Sensor Signal Processing for Defence (SSPD 2010)
+  year: 2010
+  pages: 22-1
+  publisher: IET Stevenage UK
+  citation: Fa, Rui and de Lamare, Rodrigo C and Nascimento, Vitor H (2010). Knowledge-aided STAP algorithm using affine combination of inverse covariance matrices for heterogenous clutter Sensor Signal Processing for Defence (SSPD 2010) pp. 22-1
+- key: fa2010knowledge
+  type: inproceedings
+  type_label: Conference paper
+  title: Knowledge-aided STAP algorithm using convex combination of inverse covariance matrices for heterogenous clutter
+  authors: Fa, Rui and de Lamare, Rodrigo C and Nascimento, Vitor H
+  venue: 2010 IEEE International Conference on Acoustics, Speech and Signal Processing
+  year: 2010
+  pages: 2742-2745
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C and Nascimento, Vitor H (2010). Knowledge-aided STAP algorithm using convex combination of inverse covariance matrices for heterogenous clutter 2010 IEEE International Conference on Acoustics, Speech and Signal Processing pp. 2742-2745
+- key: fa2010knowledge
+  type: inproceedings
+  type_label: Conference paper
+  title: Knowledge-aided reduced-rank STAP for MIMO radar based on joint iterative constrained optimization of adaptive filters with multiple constraints
+  authors: Fa, Rui and de Lamare, Rodrigo C
+  venue: 2010 IEEE International Conference on Acoustics, Speech and Signal Processing
+  year: 2010
+  pages: 2762-2765
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C (2010). Knowledge-aided reduced-rank STAP for MIMO radar based on joint iterative constrained optimization of adaptive filters with multiple constraints 2010 IEEE International Conference on Acoustics, Speech and Signal Processing pp. 2762-2765
+- key: li2010multiple
+  type: inproceedings
+  type_label: Conference paper
+  title: Multiple feedback successive interference cancellation with shadow area constraints for MIMO systems
+  authors: Li, Peng and de Lamare, Rodrigo C and Fa, Rui
+  venue: Wireless Communication Systems (ISWCS), 2010 7th International Symposium on
+  year: 2010
+  pages: 96-101
+  publisher: IEEE
+  citation: Li, Peng and de Lamare, Rodrigo C and Fa, Rui (2010). Multiple feedback successive interference cancellation with shadow area constraints for MIMO systems Wireless Communication Systems (ISWCS), 2010 7th International Symposium on pp. 96-101
+- key: fa2010reduced
+  type: inproceedings
+  type_label: Conference paper
+  title: Reduced-rank STAP for airborne radar based on switched joint interpolation, decimation and filtering algorithm
+  authors: Fa, Rui and de Lamare, Rodrigo C
+  venue: Sensor Signal Processing for Defence (SSPD 2010)
+  year: 2010
+  pages: 1-5
+  publisher: IET
+  citation: Fa, Rui and de Lamare, Rodrigo C (2010). Reduced-rank STAP for airborne radar based on switched joint interpolation, decimation and filtering algorithm Sensor Signal Processing for Defence (SSPD 2010) pp. 1-5
+- key: fa2010reduced
+  type: article
+  type_label: Journal article
+  title: Reduced-rank STAP schemes for airborne radar based on switched joint interpolation, decimation and filtering algorithm
+  authors: Fa, Rui and de Lamare, Rodrigo C and Wang, Lei
+  venue: Signal Processing, IEEE Transactions on
+  year: 2010
+  volume: '58'
+  number: '8'
+  pages: 4182-4194
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C and Wang, Lei (2010). Reduced-rank STAP schemes for airborne radar based on switched joint interpolation, decimation and filtering algorithm Signal Processing, IEEE Transactions on 58(8) pp. 4182-4194
+- key: li2010reduced
+  type: article
+  type_label: Journal article
+  title: Reduced-rank linear interference suppression for DS-UWB systems based on switched approximations of adaptive basis functions
+  authors: Li, Sheng and de Lamare, Rodrigo C and Fa, Rui
+  venue: IEEE Transactions on Vehicular Technology
+  year: 2010
+  volume: '60'
+  number: '2'
+  pages: 485-497
+  publisher: IEEE
+  citation: Li, Sheng and de Lamare, Rodrigo C and Fa, Rui (2010). Reduced-rank linear interference suppression for DS-UWB systems based on switched approximations of adaptive basis functions IEEE Transactions on Vehicular Technology 60(2) pp. 485-497
+- key: fa2010switched
+  type: inproceedings
+  type_label: Conference paper
+  title: Switched interleaving turbo codes with transmission of side information for short blocks
+  authors: Fa, Rui and de Lamare, Rodrigo C
+  venue: 2010 7th International Symposium on Wireless Communication Systems
+  year: 2010
+  pages: 854-858
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C (2010). Switched interleaving turbo codes with transmission of side information for short blocks 2010 7th International Symposium on Wireless Communication Systems pp. 854-858
+- key: fa2009design
+  type: inproceedings
+  type_label: Conference paper
+  title: Design of adaptive multi-branch SIC receivers for MIMO spatial multiplexing systems
+  authors: Fa, Rui and de Lamare, Rodrigo C
+  venue: 2009 6th International Symposium on Wireless Communication Systems
+  year: 2009
+  pages: 575-579
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C (2009). Design of adaptive multi-branch SIC receivers for MIMO spatial multiplexing systems 2009 6th International Symposium on Wireless Communication Systems pp. 575-579
+- key: fa2009joint
+  type: article
+  type_label: Journal article
+  title: Joint data detection and phase recovery for downlink MC-2D-CDMA systems
+  authors: Fa, Rui and Xiao, Pei
+  venue: IEEE transactions on communications
+  year: 2009
+  volume: '57'
+  number: '9'
+  pages: 2782-2789
+  publisher: IEEE
+  citation: Fa, Rui and Xiao, Pei (2009). Joint data detection and phase recovery for downlink MC-2D-CDMA systems IEEE transactions on communications 57(9) pp. 2782-2789
+- key: cai2009linear
+  type: inproceedings
+  type_label: Conference paper
+  title: Linear interference suppression for spread spectrum systems with switched interleaving and limited feedback
+  authors: Cai, Yunlong and de Lamare, Rodrigo C and Fa, Rui
+  venue: 2009 IEEE Wireless Communications and Networking Conference
+  year: 2009
+  pages: 1-6
+  publisher: IEEE
+  citation: Cai, Yunlong and de Lamare, Rodrigo C and Fa, Rui (2009). Linear interference suppression for spread spectrum systems with switched interleaving and limited feedback 2009 IEEE Wireless Communications and Networking Conference pp. 1-6
+- key: fa2009multi
+  type: inproceedings
+  type_label: Conference paper
+  title: Multi-branch successive interference cancellation for MIMO spatial multiplexing systems
+  authors: Fa, Rui and de Lamare, Rodrigo C
+  venue: Wireless Communications and Networking Conference, 2009. WCNC 2009. IEEE
+  year: 2009
+  pages: 1-6
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C (2009). Multi-branch successive interference cancellation for MIMO spatial multiplexing systems Wireless Communications and Networking Conference, 2009. WCNC 2009. IEEE pp. 1-6
+- key: cai2009novel
+  type: inproceedings
+  type_label: Conference paper
+  title: Novel switched interleaving techniques with limited feedback for DS-CDMA systems
+  authors: Cai, Yunlong and De Lamare, Rodrigo C and Fa, Rui
+  venue: 2009 IEEE International Conference on Communications
+  year: 2009
+  pages: 1-5
+  publisher: IEEE
+  citation: Cai, Yunlong and De Lamare, Rodrigo C and Fa, Rui (2009). Novel switched interleaving techniques with limited feedback for DS-CDMA systems 2009 IEEE International Conference on Communications pp. 1-5
+- key: fa2009performance
+  type: inproceedings
+  type_label: Conference paper
+  title: Performance Analysis for MC-CDMA System in Impulsive Noise
+  authors: Fa, Rui and Sharif, Bayan S and Tsimenidis, Charalampos C
+  venue: 2009 IEEE Wireless Communications and Networking Conference
+  year: 2009
+  pages: 1-5
+  publisher: IEEE
+  citation: Fa, Rui and Sharif, Bayan S and Tsimenidis, Charalampos C (2009). Performance Analysis for MC-CDMA System in Impulsive Noise 2009 IEEE Wireless Communications and Networking Conference pp. 1-5
+- key: fa2009reduced
+  type: inproceedings
+  type_label: Conference paper
+  title: Reduced-rank STAP algorithm for adaptive radar based on basis-functions approximation
+  authors: Fa, Rui and de Lamare, Rodrigo C and Li, Sheng
+  venue: Statistical Signal Processing, 2009. SSP'09. IEEE/SP 15th Workshop on
+  year: 2009
+  pages: 89-92
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C and Li, Sheng (2009). Reduced-rank STAP algorithm for adaptive radar based on basis-functions approximation Statistical Signal Processing, 2009. SSP'09. IEEE/SP 15th Workshop on pp. 89-92
+- key: fa2009reduced
+  type: inproceedings
+  type_label: Conference paper
+  title: Reduced-rank STAP for MIMO radar based on joint iterative optimization of knowledge-aided adaptive filters
+  authors: Fa, Rui and De Lamare, Rodrigo C and Clarke, Patrick
+  venue: 2009 Conference Record of the Forty-Third Asilomar Conference On Signals, Systems and Computers
+  year: 2009
+  pages: 496-500
+  publisher: IEEE
+  citation: Fa, Rui and De Lamare, Rodrigo C and Clarke, Patrick (2009). Reduced-rank STAP for MIMO radar based on joint iterative optimization of knowledge-aided adaptive filters 2009 Conference Record of the Forty-Third Asilomar Conference On Signals, Systems and Computers pp. 496-500
+- key: fa2008reduced
+  type: inproceedings
+  type_label: Conference paper
+  title: Reduced-rank STAP algorithm for adaptive radar based on joint iterative optimization of adaptive filters
+  authors: Fa, Rui and de Lamare, Rodrigo C and Zanatta-Filho, Danilo
+  venue: Signals, Systems and Computers, 2008 42nd Asilomar Conference on
+  year: 2008
+  pages: 533-537
+  publisher: IEEE
+  citation: Fa, Rui and de Lamare, Rodrigo C and Zanatta-Filho, Danilo (2008). Reduced-rank STAP algorithm for adaptive radar based on joint iterative optimization of adaptive filters Signals, Systems and Computers, 2008 42nd Asilomar Conference on pp. 533-537
+- key: zanatta2008reduced
+  type: inproceedings
+  type_label: Conference paper
+  title: Reduced-rank interference suppression for GPS systems based on adaptive basis-function approximation
+  authors: Zanatta-Filho, Danilo and de Lamare, Rodrigo C and Fa, Rui
+  venue: 2008 42nd Asilomar Conference on Signals, Systems and Computers
+  year: 2008
+  pages: 1635-1639
+  publisher: IEEE
+  citation: Zanatta-Filho, Danilo and de Lamare, Rodrigo C and Fa, Rui (2008). Reduced-rank interference suppression for GPS systems based on adaptive basis-function approximation 2008 42nd Asilomar Conference on Signals, Systems and Computers pp. 1635-1639
+- key: fa2007detection
+  type: phdthesis
+  type_label: Phdthesis
+  title: Detection and carrier recovery algorithms for CDMA systems in impulsive noise environments
+  authors: Fa, Rui
+  year: 2007
+  citation: Fa, Rui (2007). Detection and carrier recovery algorithms for CDMA systems in impulsive noise environments
+- key: fa2007downlink
+  type: inproceedings
+  type_label: Conference paper
+  title: Downlink MC-2D-CDMA over time-variant frequency-selective Rayleigh fading channels
+  authors: Fa, Rui and Sharif, Bayan S and Tsimenidis, CC
+  venue: 2007 IEEE International Conference on Communications
+  year: 2007
+  pages: 2956-2960
+  publisher: IEEE
+  citation: Fa, Rui and Sharif, Bayan S and Tsimenidis, CC (2007). Downlink MC-2D-CDMA over time-variant frequency-selective Rayleigh fading channels 2007 IEEE International Conference on Communications pp. 2956-2960
+- key: fa2007iterative
+  type: inproceedings
+  type_label: Conference paper
+  title: Iterative detection and phase recovery for downlink DS and MC-CDMAFlat rayleigh fading channels
+  authors: Fa, Rui and Sharif, Bayan S and Tsimenidis, CC
+  venue: 2007 IEEE 65th Vehicular Technology Conference-VTC2007-Spring
+  year: 2007
+  pages: 2315-2319
+  publisher: IEEE
+  citation: Fa, Rui and Sharif, Bayan S and Tsimenidis, CC (2007). Iterative detection and phase recovery for downlink DS and MC-CDMAFlat rayleigh fading channels 2007 IEEE 65th Vehicular Technology Conference-VTC2007-Spring pp. 2315-2319
+- key: fa2004robust
+  type: article
+  type_label: Journal article
+  title: Robust MMSE receiver employing Hampel-type nonlinear preprocessing for DS-CDMA communication in impulsive noise
+  authors: Fa, R and Tsimenidis, CC and Sharif, BS
+  venue: Electronics Letters
+  year: 2004
+  volume: '40'
+  number: '8'
+  pages: 489-491
+  publisher: IEE
+  citation: Fa, R and Tsimenidis, CC and Sharif, BS (2004). Robust MMSE receiver employing Hampel-type nonlinear preprocessing for DS-CDMA communication in impulsive noise Electronics Letters 40(8) pp. 489-491
+- key: abu1970central
+  type: article
+  type_label: Journal article
+  title: Central Dogma of Molecular Biology
+  authors: Abu Amous, B and Rui, F and Nandi, AK
+  venue: Integrative Cluster Analysis in Bioinformatics
+  year: 1970
+  pages: 33-52
+  citation: Abu Amous, B and Rui, F and Nandi, AK (1970). Central Dogma of Molecular Biology Integrative Cluster Analysis in Bioinformatics pp. 33-52
+- key: kclustering
+  type: article
+  type_label: Journal article
+  title: 'Clustering analysis for gene expression data: a methodological review'
+  authors: K Nandi, Asoke and Fa, Rui and Gong, Liyun
+  venue: University of Lincoln
+  year: 0
+  publisher: University of Lincoln
+  citation: 'K Nandi, Asoke and Fa, Rui and Gong, Liyun Clustering analysis for gene expression data: a methodological review University of Lincoln'
+- key: sharif2007iterative
+  type: inproceedings
+  type_label: Conference paper
+  title: Iterative Detection and Phase Recovery for Downlink DS and MC-CDMAFlat Rayleigh Fading Channels
+  authors: Sharif, BS and Tsimenidis, CC and Fa, R
+  venue: 2007 IEEE 65th Vehicular Technology Conference-VTC2007-Spring
+  year: 0
+  citation: Sharif, BS and Tsimenidis, CC and Fa, R Iterative Detection and Phase Recovery for Downlink DS and MC-CDMAFlat Rayleigh Fading Channels 2007 IEEE 65th Vehicular Technology Conference-VTC2007-Spring
+- key: wanpredicting
+  type: article
+  type_label: Journal article
+  title: Predicting Protein Function Directly from STRING Network Topology using Deep Learning Techniques
+  authors: Wan, Cen and Cozzetto, Domenico and Fa, Rui and Jones, David T
+  year: 0
+  citation: Wan, Cen and Cozzetto, Domenico and Fa, Rui and Jones, David T Predicting Protein Function Directly from STRING Network Topology using Deep Learning Techniques
+- key: yangresearch
+  type: article
+  type_label: Journal article
+  title: Research Article Direct Data Domain Sparsity-Based STAP Utilizing Subaperture Smoothing Techniques
+  authors: Yang, Zhaocheng and Fa, Rui and Qin, Yuliang and Li, Xiang and Wang, Hongqiang
+  year: 0
+  citation: Yang, Zhaocheng and Fa, Rui and Qin, Yuliang and Li, Xiang and Wang, Hongqiang Research Article Direct Data Domain Sparsity-Based STAP Utilizing Subaperture Smoothing Techniques

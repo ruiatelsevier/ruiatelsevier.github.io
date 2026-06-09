@@ -21,11 +21,6 @@ redirect_from:
       <a class="research-button research-button--primary" href="/cv/">View CV</a>
       <a class="research-button" href="/publications/">Publications</a>
     </div>
-    <div class="research-visitor-counter" id="busuanzi_container_site_pv">
-      <span class="research-visitor-label">Site visits</span>
-      <span class="research-visitor-value" id="busuanzi_value_site_pv">--</span>
-    </div>
-    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </header>
 
   <section class="research-section research-section--intro">
@@ -62,4 +57,14 @@ redirect_from:
       healthcare analytics, and clinical decision support, with research experience across academia and industry.
     </p>
   </section>
+
+  <footer class="research-footer">
+    <span class="research-visitor-counter">
+      <span class="research-visitor-label">Site visits</span>
+      <span class="research-visitor-number" id="busuanzi_container_site_pv">
+        <span class="research-visitor-value" id="busuanzi_value_site_pv">--</span>
+      </span>
+    </span>
+  </footer>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </section>
