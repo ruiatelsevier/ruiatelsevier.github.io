@@ -508,14 +508,16 @@
   text-decoration: none;
 }
 
-.research-footer {
+.research-footer,
+.cv-footer {
   display: flex;
   justify-content: flex-end;
   margin-top: -0.75rem;
   color: #87867f;
 }
 
-.research-footer .post-like {
+.research-footer .post-like,
+.cv-footer .post-like {
   width: auto;
   margin-top: 0;
   padding-top: 0;

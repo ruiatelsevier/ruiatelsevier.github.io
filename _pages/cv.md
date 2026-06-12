@@ -119,4 +119,8 @@ redirect_from:
       </article>
     </div>
   </section>
+
+  <footer class="cv-footer">
+    {% include post-like.html %}
+  </footer>
 </section>
