@@ -8,24 +8,27 @@
   {% assign post_views_ready = true %}
 {% endif %}
 
-{% if page.collection == "posts" %}
-  {% if post_likes_ready or post_views_ready %}
-    <div class="post-like" data-post-like data-post-slug="{{ page.url | escape }}">
-      {% if post_likes_ready %}
-        <button class="post-like__button" type="button" data-post-like-button aria-label="Like this post">
-          <i class="fa fa-thumbs-up post-like__icon" aria-hidden="true"></i>
-          <span class="post-like__label" data-post-like-label>Like</span>
-          <span class="post-like__count" data-post-like-count aria-live="polite">--</span>
-        </button>
-      {% endif %}
-      {% if post_views_ready %}
-        <span class="post-like__view" data-post-view>
-          <i class="fa fa-eye post-like__icon" aria-hidden="true"></i>
-          <span class="post-like__label">Views</span>
-          <span class="post-like__count" data-post-view-count aria-live="polite">--</span>
-        </span>
-      {% endif %}
-      <span class="post-like__status" data-post-like-status aria-live="polite"></span>
-    </div>
-  {% endif %}
+{% assign page_likes_ready = false %}
+{% if page.collection == "posts" and post_likes_ready %}
+  {% assign page_likes_ready = true %}
+{% endif %}
+
+{% if page_likes_ready or post_views_ready %}
+  <div class="post-like" data-post-like data-post-slug="{{ page.url | escape }}">
+    {% if page_likes_ready %}
+      <button class="post-like__button" type="button" data-post-like-button aria-label="Like this post">
+        <i class="fa fa-thumbs-up post-like__icon" aria-hidden="true"></i>
+        <span class="post-like__label" data-post-like-label>Like</span>
+        <span class="post-like__count" data-post-like-count aria-live="polite">--</span>
+      </button>
+    {% endif %}
+    {% if post_views_ready %}
+      <span class="post-like__view" data-post-view>
+        <i class="fa fa-eye post-like__icon" aria-hidden="true"></i>
+        <span class="post-like__label">Views</span>
+        <span class="post-like__count" data-post-view-count aria-live="polite">--</span>
+      </span>
+    {% endif %}
+    <span class="post-like__status" data-post-like-status aria-live="polite"></span>
+  </div>
 {% endif %}

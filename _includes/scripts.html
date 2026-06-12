@@ -10,26 +10,29 @@
   {% assign post_views_ready = true %}
 {% endif %}
 
+{% assign page_likes_ready = false %}
+{% if page.collection == "posts" and post_likes_ready %}
+  {% assign page_likes_ready = true %}
+{% endif %}
+
 {% assign post_interactions_supabase_url = site.post_likes.supabase_url %}
 {% assign post_interactions_supabase_anon_key = site.post_likes.supabase_anon_key %}
-{% unless post_likes_ready %}
+{% unless page_likes_ready %}
   {% assign post_interactions_supabase_url = site.post_views.supabase_url %}
   {% assign post_interactions_supabase_anon_key = site.post_views.supabase_anon_key %}
 {% endunless %}
 
-{% if page.collection == "posts" %}
-  {% if post_likes_ready or post_views_ready %}
-    <script>
-      window.postLikesConfig = {
-        supabaseUrl: {{ post_interactions_supabase_url | jsonify }},
-        supabaseAnonKey: {{ post_interactions_supabase_anon_key | jsonify }},
-        likesEnabled: {{ post_likes_ready | jsonify }},
-        viewsEnabled: {{ post_views_ready | jsonify }}
-      };
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="{{ base_path }}/assets/js/post-like.js"></script>
-  {% endif %}
+{% if page_likes_ready or post_views_ready %}
+  <script>
+    window.postLikesConfig = {
+      supabaseUrl: {{ post_interactions_supabase_url | jsonify }},
+      supabaseAnonKey: {{ post_interactions_supabase_anon_key | jsonify }},
+      likesEnabled: {{ page_likes_ready | jsonify }},
+      viewsEnabled: {{ post_views_ready | jsonify }}
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="{{ base_path }}/assets/js/post-like.js"></script>
 {% endif %}
 
 {% include analytics.html %}

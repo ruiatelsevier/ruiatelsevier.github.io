@@ -188,7 +188,8 @@
   font-size: 0.86rem;
 }
 
-.post-like__button {
+.post-like__button,
+.post-like__view {
   display: inline-flex;
   align-items: center;
   min-height: 36px;
@@ -198,10 +199,13 @@
   border-radius: $border-radius;
   background: mix(#fff, $background-color, 75%);
   color: $text-color;
+  line-height: 1;
+}
+
+.post-like__button {
   font-family: $sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
-  line-height: 1;
   cursor: pointer;
 
   &:hover,
@@ -216,20 +220,14 @@
 
   &.is-liked {
     border-color: mix(#fff, $primary-color, 75%);
-    background: mix(#fff, $background-color, 85%);
+    background: mix(#fff, $background-color, 75%);
     color: $masthead-link-color-hover;
   }
 }
 
 .post-like__view {
-  display: inline-flex;
-  align-items: center;
-  min-height: 36px;
-  gap: 0.45rem;
-  padding: 0.38rem 0.72rem;
-  border: 1px solid transparent;
-  color: $text-color;
-  line-height: 1;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .post-like__icon {
@@ -515,6 +513,13 @@
   justify-content: flex-end;
   margin-top: -0.75rem;
   color: #87867f;
+}
+
+.research-footer .post-like {
+  width: auto;
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
 }
 
 .research-visitor-counter {

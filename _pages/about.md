@@ -59,12 +59,6 @@ redirect_from:
   </section>
 
   <footer class="research-footer">
-    <span class="research-visitor-counter">
-      <span class="research-visitor-label">Site visits</span>
-      <span class="research-visitor-number" id="busuanzi_container_site_pv">
-        <span class="research-visitor-value" id="busuanzi_value_site_pv">--</span>
-      </span>
-    </span>
+    {% include post-like.html %}
   </footer>
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </section>
