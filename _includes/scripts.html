@@ -1,4 +1,15 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if page.collection == "posts" and site.post_likes.enabled and site.post_likes.supabase_url and site.post_likes.supabase_anon_key %}
+  <script>
+    window.postLikesConfig = {
+      supabaseUrl: {{ site.post_likes.supabase_url | jsonify }},
+      supabaseAnonKey: {{ site.post_likes.supabase_anon_key | jsonify }}
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="{{ base_path }}/assets/js/post-like.js"></script>
+{% endif %}
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}

@@ -174,6 +174,70 @@
   }
 }
 
+.post-like {
+  @include full();
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid $border-color;
+  color: $gray;
+  font-family: $sans-serif;
+  font-size: 0.86rem;
+}
+
+.post-like__button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  gap: 0.45rem;
+  padding: 0.38rem 0.72rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: mix(#fff, $background-color, 75%);
+  color: $text-color;
+  font-family: $sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border-color: mix(#000, $border-color, 12%);
+    color: $masthead-link-color-hover;
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+
+  &.is-liked {
+    border-color: mix(#fff, $primary-color, 75%);
+    background: mix(#fff, $background-color, 85%);
+    color: $masthead-link-color-hover;
+  }
+}
+
+.post-like__icon {
+  color: $primary-color;
+  font-size: 0.95rem;
+}
+
+.post-like__count {
+  color: $masthead-link-color-hover;
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.post-like__status {
+  color: $gray;
+  font-size: 0.82rem;
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;

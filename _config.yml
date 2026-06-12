@@ -30,6 +30,10 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+post_likes:
+  enabled: false
+  supabase_url:
+  supabase_anon_key:
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"

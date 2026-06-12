@@ -1,0 +1,15 @@
+{% assign post_likes_ready = false %}
+{% if site.post_likes.enabled and site.post_likes.supabase_url and site.post_likes.supabase_anon_key %}
+  {% assign post_likes_ready = true %}
+{% endif %}
+
+{% if page.collection == "posts" and post_likes_ready %}
+  <div class="post-like" data-post-like data-post-slug="{{ page.url | escape }}">
+    <button class="post-like__button" type="button" data-post-like-button aria-label="Like this post">
+      <i class="fa fa-thumbs-up post-like__icon" aria-hidden="true"></i>
+      <span class="post-like__label" data-post-like-label>Like</span>
+      <span class="post-like__count" data-post-like-count aria-live="polite">--</span>
+    </button>
+    <span class="post-like__status" data-post-like-status aria-live="polite"></span>
+  </div>
+{% endif %}
