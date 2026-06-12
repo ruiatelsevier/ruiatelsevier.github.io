@@ -1,0 +1,55 @@
+{% include base_path %}
+
+{% assign post_years = '' | split: ',' %}
+{% for post in site.posts %}
+  {% assign post_year = post.date | date: '%Y' %}
+  {% unless post_years contains post_year %}
+    {% assign post_years = post_years | push: post_year %}
+  {% endunless %}
+{% endfor %}
+{% assign post_years = post_years | sort | reverse %}
+
+<aside class="sidebar__right blog-side-panel">
+  <nav class="blog-side-panel__nav" aria-label="Blog archive">
+    <h2 class="blog-side-panel__title">Blog Archive</h2>
+
+    <details class="blog-side-panel__section" open>
+      <summary class="blog-side-panel__summary">By Year</summary>
+      <ul class="blog-side-panel__list">
+        {% for year in post_years %}
+          {% assign year_count = 0 %}
+          {% for post in site.posts %}
+            {% assign post_year = post.date | date: '%Y' %}
+            {% if post_year == year %}
+              {% assign year_count = year_count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          <li class="blog-side-panel__item">
+            <a class="blog-side-panel__link" href="{{ base_path }}/year-archive/#{{ year | slugify }}">
+              <span>{{ year }}</span>
+              <span class="blog-side-panel__count">{{ year_count }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+
+    {% include group-by-array collection=site.posts field="tags" %}
+    {% if group_names.size > 0 %}
+      <details class="blog-side-panel__section">
+        <summary class="blog-side-panel__summary">By Tags</summary>
+        <ul class="blog-side-panel__list">
+          {% for tag in group_names %}
+            {% assign blog_side_panel_tag_posts = group_items[forloop.index0] %}
+            <li class="blog-side-panel__item">
+              <a class="blog-side-panel__link" href="{{ base_path }}{{ tag | slugify | prepend: '#' | prepend: site.tag_archive.path }}">
+                <span>{{ tag }}</span>
+                <span class="blog-side-panel__count">{{ blog_side_panel_tag_posts.size }}</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+  </nav>
+</aside>

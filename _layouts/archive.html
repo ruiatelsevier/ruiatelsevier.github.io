@@ -12,8 +12,12 @@ layout: default
   {% endunless %}
 {% endif %}
 
-<div id="main" role="main">
+<div id="main"{% if page.blog_side_panel %} class="layout--blog-side-panel"{% endif %} role="main">
   {% include sidebar.html %}
+
+  {% if page.blog_side_panel %}
+    {% include blog-side-panel.html %}
+  {% endif %}
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}

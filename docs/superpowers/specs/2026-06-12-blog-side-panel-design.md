@@ -78,9 +78,11 @@ The opt-in archive pages are:
 
 `_layouts/single.html` should render the panel only for posts:
 
+{% raw %}
 ```liquid
 {% if page.collection == "posts" %}
 ```
+{% endraw %}
 
 The panel should not appear on standalone pages that also use `single`.
 
