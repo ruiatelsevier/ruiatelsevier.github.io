@@ -31,9 +31,9 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 post_likes:
-  enabled: false
-  supabase_url:
-  supabase_anon_key:
+  enabled: true
+  supabase_url: "https://pcifcuorircukbxirvgj.supabase.co"
+  supabase_anon_key: "sb_publishable_NGrReWb9WTg353mtsaSqOg_c-aXsW4m"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
