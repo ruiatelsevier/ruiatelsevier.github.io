@@ -34,6 +34,10 @@ post_likes:
   enabled: true
   supabase_url: "https://pcifcuorircukbxirvgj.supabase.co"
   supabase_anon_key: "sb_publishable_NGrReWb9WTg353mtsaSqOg_c-aXsW4m"
+post_views:
+  enabled: true
+  supabase_url: "https://pcifcuorircukbxirvgj.supabase.co"
+  supabase_anon_key: "sb_publishable_NGrReWb9WTg353mtsaSqOg_c-aXsW4m"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"

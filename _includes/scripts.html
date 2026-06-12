@@ -1,14 +1,35 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
-{% if page.collection == "posts" and site.post_likes.enabled and site.post_likes.supabase_url and site.post_likes.supabase_anon_key %}
-  <script>
-    window.postLikesConfig = {
-      supabaseUrl: {{ site.post_likes.supabase_url | jsonify }},
-      supabaseAnonKey: {{ site.post_likes.supabase_anon_key | jsonify }}
-    };
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="{{ base_path }}/assets/js/post-like.js"></script>
+{% assign post_likes_ready = false %}
+{% if site.post_likes.enabled and site.post_likes.supabase_url and site.post_likes.supabase_anon_key %}
+  {% assign post_likes_ready = true %}
+{% endif %}
+
+{% assign post_views_ready = false %}
+{% if site.post_views.enabled and site.post_views.supabase_url and site.post_views.supabase_anon_key %}
+  {% assign post_views_ready = true %}
+{% endif %}
+
+{% assign post_interactions_supabase_url = site.post_likes.supabase_url %}
+{% assign post_interactions_supabase_anon_key = site.post_likes.supabase_anon_key %}
+{% unless post_likes_ready %}
+  {% assign post_interactions_supabase_url = site.post_views.supabase_url %}
+  {% assign post_interactions_supabase_anon_key = site.post_views.supabase_anon_key %}
+{% endunless %}
+
+{% if page.collection == "posts" %}
+  {% if post_likes_ready or post_views_ready %}
+    <script>
+      window.postLikesConfig = {
+        supabaseUrl: {{ post_interactions_supabase_url | jsonify }},
+        supabaseAnonKey: {{ post_interactions_supabase_anon_key | jsonify }},
+        likesEnabled: {{ post_likes_ready | jsonify }},
+        viewsEnabled: {{ post_views_ready | jsonify }}
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="{{ base_path }}/assets/js/post-like.js"></script>
+  {% endif %}
 {% endif %}
 
 {% include analytics.html %}

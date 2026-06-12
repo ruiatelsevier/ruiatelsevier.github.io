@@ -10,6 +10,8 @@
 
   var client = supabaseGlobal.createClient(config.supabaseUrl, config.supabaseAnonKey);
   var widgets = document.querySelectorAll("[data-post-like]");
+  var likesEnabled = config.likesEnabled !== false;
+  var viewsEnabled = config.viewsEnabled === true;
 
   function likedKey(slug) {
     return "post-like:" + slug;
@@ -55,6 +57,13 @@
 
   function setCount(widget, count) {
     var countNode = widget.querySelector("[data-post-like-count]");
+    if (countNode) {
+      countNode.textContent = typeof count === "number" ? String(count) : "--";
+    }
+  }
+
+  function setViewCount(widget, count) {
+    var countNode = widget.querySelector("[data-post-view-count]");
     if (countNode) {
       countNode.textContent = typeof count === "number" ? String(count) : "--";
     }
@@ -111,19 +120,40 @@
       });
   }
 
+  function incrementView(widget, slug) {
+    client
+      .rpc("increment_post_view", { slug: slug })
+      .then(function (result) {
+        if (result.error) {
+          throw result.error;
+        }
+
+        setViewCount(widget, result.data);
+      })
+      .catch(function () {
+        setViewCount(widget, null);
+      });
+  }
+
   Array.prototype.forEach.call(widgets, function (widget) {
     var slug = widget.getAttribute("data-post-slug");
     var button = widget.querySelector("[data-post-like-button]");
 
-    if (!slug || !button) {
+    if (!slug) {
       return;
     }
 
-    setLikedState(widget, hasLiked(slug));
-    fetchCount(widget, slug);
+    if (likesEnabled && button) {
+      setLikedState(widget, hasLiked(slug));
+      fetchCount(widget, slug);
 
-    button.addEventListener("click", function () {
-      incrementLike(widget, slug);
-    });
+      button.addEventListener("click", function () {
+        incrementLike(widget, slug);
+      });
+    }
+
+    if (viewsEnabled) {
+      incrementView(widget, slug);
+    }
   });
 })();

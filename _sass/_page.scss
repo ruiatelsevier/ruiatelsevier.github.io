@@ -221,6 +221,17 @@
   }
 }
 
+.post-like__view {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  gap: 0.45rem;
+  padding: 0.38rem 0.72rem;
+  border: 1px solid transparent;
+  color: $text-color;
+  line-height: 1;
+}
+
 .post-like__icon {
   color: $primary-color;
   font-size: 0.95rem;
